@@ -28,9 +28,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="donatestyle.css">
+    <link rel="stylesheet" href="sellstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Donate E-Waste</title>
+    <title>Sell E-Waste</title>
 </head>
 <body>
 <div id="mySidenav" class="sidenav">
@@ -57,9 +57,9 @@
 
 <div id="myOverlay" class="overlay"></div>
 
-<div class="donate-form">
-    <h1>Donate Your E-Waste</h1>
-    <form action="donate.php" method="POST">
+<div class="sell-form">
+    <h1>Sell Your E-Waste</h1>
+    <form action="sell.php" method="POST">
         <div class="form-group">
             <label for="ewaste">Type of E-Waste:</label>
             <select id="ewaste" name="ewaste" onchange="showOtherField()">

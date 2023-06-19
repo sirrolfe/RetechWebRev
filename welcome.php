@@ -4,10 +4,10 @@ if (session_status() == PHP_SESSION_NONE) {
   session_start();
 }
 
-$host = "localhost";
+$host = "db";
 $db = "testing_db";
 $user = "root";
-$pass = "";
+$pass = "bimo1234";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);

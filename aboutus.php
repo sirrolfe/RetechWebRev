@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="dashboardstyle.css">
     <link rel="stylesheet" href="aboutusstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -40,7 +39,6 @@
             <p>By partnering with us for your electronic waste recycling needs, you contribute to the circular economy and support sustainable practices. We strive to create a greener future by minimizing waste, conserving resources, and promoting the reuse of electronic components. Together, we can make a significant impact in reducing the environmental footprint of electronic devices and pave the way for a more sustainable world.</p>
         </div>
     </div>
-
     <script src="dashboard.js"></script>
 </body>
 </html>

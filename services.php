@@ -1,9 +1,9 @@
 <?php
     session_start(); 
 
-    $servername = "localhost";
+    $servername = "db";
     $username = "root";
-    $password = "";
+    $password = "bimo1234";
     $dbname = "testing_db";
 
     // Create connection
@@ -63,7 +63,7 @@
             <img src="img\recycle.png" alt="Recycle Logo">
             <span>Donate E-Wastes</span>
         </a>
-        <a href="sell.php" class="option sell">
+        <a href="sellform.php" class="option sell">
             <img src="img\shopping-cart.png" alt="Shopping Cart Logo">
             <span>Sell E-Wastes</span>
         </a>

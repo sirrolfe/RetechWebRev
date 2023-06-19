@@ -142,7 +142,7 @@ body {
 }
 
 /* Update for form styling */
-.donate-form {
+.sell-form {
   background-color: var(--chetwode-blue-2);
   border: 1px solid var(--white);
   border-radius: 100px;
@@ -155,7 +155,7 @@ body {
   margin-top: -20px;
 }
 
-.donate-form h1 {
+.sell-form h1 {
   font-family: var(--font-family-outfit);
   font-size: 30px;
   color: var(--white);
@@ -163,14 +163,14 @@ body {
   margin-bottom: 20px;
 }
 
-.donate-form .form-group label {
+.sell-form .form-group label {
   color: var(--black);
   opacity: 0.7;
   margin-bottom: 10px;
 }
 
-.donate-form .form-group input,
-.donate-form .form-group select {
+.sell-form .form-group input,
+.sell-form .form-group select {
   background-color: var(--alto);
   border: 1px solid var(--white);
   border-radius: 83px;
@@ -182,7 +182,7 @@ body {
   color: #000f395c;
 }
 
-.donate-form .form-group input[type="submit"] {
+.sell-form .form-group input[type="submit"] {
   margin-top: 20px;
   cursor: pointer;
   background-color: var(--chetwode-blue);
@@ -193,21 +193,26 @@ body {
   font-size: 16px;
 }
 
-.donate-form .form-group input[type="submit"]:hover {
+.sell-form .form-group input[type="submit"]:hover {
   background: var(--chetwode-blue-2);
 }
 
 /* Hide the additional field when not required */
-.donate-form .form-group input[type="text"]#otherField {
+.sell-form .form-group input[type="text"]#otherField {
   display: none;
 }
 
-.donate-form .form-group input[type="text"]#otherField:focus::placeholder {
+.sell-form .form-group input[type="text"]#otherField:focus::placeholder {
   opacity: 0;
 }
 
-.donate-form .form-group input[type="number"] {
+.sell-form .form-group input[type="number"] {
   width: 60px;
 }
 
+#map {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
 

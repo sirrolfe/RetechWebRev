@@ -16,17 +16,17 @@
     function getPoints($ewaste) {
         switch ($ewaste) {
             case 'Laptop':
-                return 15;
-            case 'Phone':
-                return 10;
-            case 'Cables':
                 return 5;
+            case 'Phone':
+                return 3;
+            case 'Cables':
+                return 1;
             case 'Battery':
-                return 2;
+                return 1;
             case 'TV':
-                return 20;
+                return 8;
             default:
-                return 4;
+                return 1;
         }
     }
 
