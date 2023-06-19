@@ -46,7 +46,7 @@ try {
                     $stmt->execute([$fullName, $email, $phoneNumber, $city, $hashedPassword]);
 
                     // Redirect to the login page after successful registration
-                    header("Location: loginpage.html");
+                    header("Location: loginpage.php");
                     exit;
                 }
             }
