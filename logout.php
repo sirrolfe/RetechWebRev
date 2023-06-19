@@ -6,5 +6,5 @@ session_start();
 session_destroy();
 
 // Redirecting to the login page:
-header("Location: landingpage.html");
+header("Location: landingpage.php");
 ?>

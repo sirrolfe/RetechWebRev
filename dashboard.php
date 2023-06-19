@@ -50,17 +50,7 @@
           <h1>Welcome to ReTech!
           <br>
           <br>Your e-waste, our concern!</h1>
-          <div class="manage-your-e-wastes-e-ffectively">Manage Your E-wastes 
-            <br>Effectively</div>
-          <p class="use-our-built-in-sea">
-          Use our built-in search feature to pull valuable 
-          <br>insights and monitor the value of your e-wastes.</p>  
-          <div class="object-other-18">
-          <img src="img\object-other-18.png" class="object" alt="object-other-18"> 
-          </div> 
       </div>
-
-      
     </div>
 
     <script src="dashboard.js"></script>

@@ -28,9 +28,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="donatestyle.css">
+    <link rel="stylesheet" href="maps2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Donate E-Waste</title>
+    <title>Nearest Locations</title>
 </head>
 <body>
 <div id="mySidenav" class="sidenav">
@@ -57,48 +57,17 @@
 
 <div id="myOverlay" class="overlay"></div>
 
-<div class="donate-form">
-    <h1>Donate Your E-Waste</h1>
-    <form action="donate.php" method="POST">
-        <div class="form-group">
-            <label for="ewaste">Type of E-Waste:</label>
-            <select id="ewaste" name="ewaste" onchange="showOtherField()">
-                <option value="Laptop">Laptop</option>
-                <option value="Phone">Phone</option>
-                <option value="Cables">Cables</option>
-                <option value="Battery">Battery</option>
-                <option value="TV">TV</option>
-                <option value="Other">Other</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <input type="text" id="otherField" name="other" placeholder="Please specify">
-        </div>
-        <div class="form-group">
-            <label for="quantity">Quantity:</label>
-            <input type="number" id="quantity" name="quantity" min="1">
-        </div>
-        <div class="form-group">
-            <label for="photos">E-Waste Pictures:</label>
-            <input type="file" id="photos" name="photos[]" multiple>
-        </div>
-        <div class="form-group">
-            <input type="submit" value="Submit">
-        </div>
-    </form>
-</div>
+<div id="location-container"></div>
+<div id="map"></div>
+
+<script>
+    var userID = <?php echo $userid; ?>;
+</script>
 
 <script src="dashboard.js"></script>
-<script>
-    function showOtherField() {
-        var dropdown = document.getElementById('ewaste');
-        var otherField = document.getElementById('otherField');
-        if (dropdown.value === 'Other') {
-            otherField.style.display = 'block';
-        } else {
-            otherField.style.display = 'none';
-        }
-    }
+<script src="maps.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdkYRty6_7dLuKxa6dCH1j14DtGvBJCUY&libraries=places&callback=initMap">
 </script>
 </body>
 </html>
