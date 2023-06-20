@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
+$host = "db";
 $db = "testing_db";
 $user = "root";
-$pass = "";
+$pass = "bimo1234";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
@@ -46,7 +46,7 @@ try {
                     $stmt->execute([$fullName, $email, $phoneNumber, $city, $hashedPassword]);
 
                     // Redirect to the login page after successful registration
-                    header("Location: loginpage.html");
+                    header("Location: loginpage.php");
                     exit;
                 }
             }
